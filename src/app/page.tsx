@@ -47,12 +47,12 @@ export default function LandingPage() {
       description="To the woman who gave me everything. Thank you for your endless love, patience, and kindness. This site is just a small token of my appreciation."
       buttons={[{ text: "See Your Surprise", href: "/about" }]}
       carouselItems={[
-        { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
-        { id: "2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
-        { id: "3", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
-        { id: "4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
-        { id: "5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
-        { id: "6", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=1", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=2", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "3", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=3", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=4", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=5", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "6", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=6", imageAlt: "happy mother holding bouquet of flowers" },
       ]}
     />
   </div>
@@ -62,7 +62,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="To My Dearest Mom"
       description="Mom, your presence has been the foundation of my life. You've taught me how to be kind, strong, and brave. On this special day, I want to celebrate you and everything you do."
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=7"
       imageAlt="caring mother portrait warm smile"
     />
   </div>
@@ -76,22 +76,22 @@ export default function LandingPage() {
         {
           title: "Endless Patience",          description: "You always knew how to stay calm and guide me.",          icon: Sparkles,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "heart icon" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "flower icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=8", imageAlt: "heart icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=9", imageAlt: "flower icon" },
           ]
         },
         {
           title: "Unconditional Love",          description: "Your love is the safest place I know.",          icon: Heart,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "star icon" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "gift box icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=10", imageAlt: "star icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=11", imageAlt: "gift box icon" },
           ]
         },
         {
           title: "Incredible Wisdom",          description: "Your advice has shaped who I am today.",          icon: Award,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "ribbon icon" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "sparkle icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=12", imageAlt: "ribbon icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=13", imageAlt: "sparkle icon" },
           ]
         },
       ]}
@@ -128,7 +128,7 @@ export default function LandingPage() {
         { id: "q2", title: "Who is my favorite person?", content: "You, always and forever." },
         { id: "q3", title: "What is the best part of my day?", content: "Talking to you." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=14"
       mediaAnimation="slide-up"
       faqsAnimation="slide-up"
       title="Sweet Notes for You"
