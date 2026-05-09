@@ -45,7 +45,7 @@ export default function LandingPage() {
       background={{ variant: "rotated-rays-static" }}
       title="Happy Mother's Day"
       description="To the woman who gave me everything. Thank you for your endless love, patience, and kindness. This site is just a small token of my appreciation."
-      buttons={[{ text: "See Your Surprise", href: "/about" }]}
+      buttons={[{ text: "Open My Special Message", href: "/about" }]}
       carouselItems={[
         { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=1", imageAlt: "happy mother holding bouquet of flowers" },
         { id: "2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=2", imageAlt: "happy mother holding bouquet of flowers" },
