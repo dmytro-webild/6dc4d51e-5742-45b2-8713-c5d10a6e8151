@@ -45,7 +45,7 @@ export default function LandingPage() {
       background={{ variant: "rotated-rays-static" }}
       title="Happy Mother's Day"
       description="To the woman who gave me everything. Thank you for your endless love, patience, and kindness. This site is just a small token of my appreciation."
-      buttons={[{ text: "Explore My Love", href: "#about" }]}
+      buttons={[{ text: "See Your Surprise", href: "#about" }]}
       carouselItems={[
         { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg", imageAlt: "happy mother holding bouquet of flowers" },
         { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg", imageAlt: "flowers bouquet for mothers day" },
