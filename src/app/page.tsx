@@ -153,7 +153,7 @@ export default function LandingPage() {
       tag="Let's Celebrate"
       title="Sending You All My Love"
       description="I hope you have the most beautiful day, Mom. You deserve all the happiness in the world."
-      buttons={[{ text: "Send a Hug", onClick: () => alert('Sending a giant virtual hug to mom!') }]}
+      buttons={[{ text: "Click for a Special Surprise", onClick: () => alert('Sending a giant virtual hug to mom!') }]}
     />
   </div>
 
