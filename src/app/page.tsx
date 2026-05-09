@@ -68,17 +68,17 @@ export default function LandingPage() {
       carouselItems={[
         {
           id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg?_wi=1",
           imageAlt: "happy mother holding bouquet of flowers",
         },
         {
           id: "2",
-          imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg?_wi=1",
           imageAlt: "flowers bouquet for mothers day",
         },
         {
           id: "3",
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg?_wi=1",
           imageAlt: "mother enjoying coffee morning light",
         },
         {
@@ -130,7 +130,7 @@ export default function LandingPage() {
               imageAlt: "flower icon minimalist white",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg?_wi=2",
           imageAlt: "heart icon minimal white",
         },
         {
@@ -147,7 +147,7 @@ export default function LandingPage() {
               imageAlt: "gift box icon white",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg?_wi=2",
           imageAlt: "heart icon minimal white",
         },
         {
@@ -164,7 +164,7 @@ export default function LandingPage() {
               imageAlt: "sparkle icon white vector",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg?_wi=2",
           imageAlt: "heart icon minimal white",
         },
       ]}
