@@ -74,21 +74,21 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Endless Patience",          description: "You always knew how to stay calm and guide me.",          icon: Sparkles,
+          title: "Endless Patience",          description: "I still remember you sitting with me for hours until I finally finished my math homework, never once raising your voice.",          icon: Sparkles,
           mediaItems: [
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=8", imageAlt: "heart icon" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=9", imageAlt: "flower icon" },
           ]
         },
         {
-          title: "Unconditional Love",          description: "Your love is the safest place I know.",          icon: Heart,
+          title: "Unconditional Love",          description: "When I failed my first driver's test, you didn't scold me; you just made my favorite meal and told me it would be okay.",          icon: Heart,
           mediaItems: [
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=10", imageAlt: "star icon" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=11", imageAlt: "gift box icon" },
           ]
         },
         {
-          title: "Incredible Wisdom",          description: "Your advice has shaped who I am today.",          icon: Award,
+          title: "Incredible Wisdom",          description: "The advice you gave me during my first breakup—about keeping my head high and valuing myself—stays with me every single day.",          icon: Award,
           mediaItems: [
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=12", imageAlt: "ribbon icon" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg?_wi=13", imageAlt: "sparkle icon" },
