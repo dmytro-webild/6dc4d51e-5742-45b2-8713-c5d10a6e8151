@@ -31,22 +31,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",
-          id: "hero",
-        },
-        {
-          name: "Message",
-          id: "about",
-        },
-        {
-          name: "Memories",
-          id: "features",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Home", id: "hero" },
+        { name: "Message", id: "about" },
+        { name: "Memories", id: "features" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Mom's Special Day"
     />
@@ -54,48 +42,17 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
-      background={{
-        variant: "rotated-rays-static",
-      }}
+      background={{ variant: "rotated-rays-static" }}
       title="Happy Mother's Day"
       description="To the woman who gave me everything. Thank you for your endless love, patience, and kindness. This site is just a small token of my appreciation."
-      buttons={[
-        {
-          text: "Explore My Love",
-          href: "#about",
-        },
-      ]}
+      buttons={[{ text: "Explore My Love", href: "#about" }]}
       carouselItems={[
-        {
-          id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg?_wi=1",
-          imageAlt: "happy mother holding bouquet of flowers",
-        },
-        {
-          id: "2",
-          imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg?_wi=1",
-          imageAlt: "flowers bouquet for mothers day",
-        },
-        {
-          id: "3",
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg?_wi=1",
-          imageAlt: "mother enjoying coffee morning light",
-        },
-        {
-          id: "4",
-          imageSrc: "http://img.b2bpic.net/free-photo/male-model-posing-outdoors_23-2148872336.jpg",
-          imageAlt: "loving mother and daughter hug",
-        },
-        {
-          id: "5",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-thank-you-note-notebook_23-2149706825.jpg",
-          imageAlt: "handwritten thank you card",
-        },
-        {
-          id: "6",
-          imageSrc: "http://img.b2bpic.net/free-photo/mother-son-outdoors-sunset-with-copy-space_1249-612.jpg",
-          imageAlt: "beautiful sunset family silhouette",
-        },
+        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg", imageAlt: "flowers bouquet for mothers day" },
+        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg", imageAlt: "mother enjoying coffee morning light" },
+        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/male-model-posing-outdoors_23-2148872336.jpg", imageAlt: "loving mother and daughter hug" },
+        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/view-thank-you-note-notebook_23-2149706825.jpg", imageAlt: "handwritten thank you card" },
+        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/mother-son-outdoors-sunset-with-copy-space_1249-612.jpg", imageAlt: "beautiful sunset family silhouette" },
       ]}
     />
   </div>
@@ -112,60 +69,30 @@ export default function LandingPage() {
 
   <div id="features" data-section="features">
       <FeatureCardTwentyFive
-      animationType="slide-up"
+      animationType="depth-3d"
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
         {
-          title: "Endless Patience",
-          description: "You always knew how to stay calm and guide me.",
-          icon: Sparkles,
+          title: "Endless Patience",          description: "You always knew how to stay calm and guide me.",          icon: Sparkles,
           mediaItems: [
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/red-yarn-heart-shaped-wall-background_1150-6952.jpg",
-              imageAlt: "heart icon minimal white",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/dried-flower-window-shadow-floral-background_53876-160632.jpg",
-              imageAlt: "flower icon minimalist white",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg?_wi=2",
-          imageAlt: "heart icon minimal white",
+            { imageSrc: "http://img.b2bpic.net/free-photo/red-yarn-heart-shaped-wall-background_1150-6952.jpg", imageAlt: "heart icon" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/dried-flower-window-shadow-floral-background_53876-160632.jpg", imageAlt: "flower icon" },
+          ]
         },
         {
-          title: "Unconditional Love",
-          description: "Your love is the safest place I know.",
-          icon: Heart,
+          title: "Unconditional Love",          description: "Your love is the safest place I know.",          icon: Heart,
           mediaItems: [
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/big-star-with-bulb-lights-small-one-concrete-wall-background-loft-interior-decor_8353-8324.jpg",
-              imageAlt: "star icon minimalist white",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/red-gift-with-arms-legs_1156-129.jpg",
-              imageAlt: "gift box icon white",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg?_wi=2",
-          imageAlt: "heart icon minimal white",
+            { imageSrc: "http://img.b2bpic.net/free-photo/big-star-with-bulb-lights-small-one-concrete-wall-background-loft-interior-decor_8353-8324.jpg", imageAlt: "star icon" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/red-gift-with-arms-legs_1156-129.jpg", imageAlt: "gift box icon" },
+          ]
         },
         {
-          title: "Incredible Wisdom",
-          description: "Your advice has shaped who I am today.",
-          icon: Award,
+          title: "Incredible Wisdom",          description: "Your advice has shaped who I am today.",          icon: Award,
           mediaItems: [
-            {
-              imageSrc: "http://img.b2bpic.net/free-vector/set-hipster-labels_23-2147505686.jpg",
-              imageAlt: "ribbon icon white minimalist",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-vector/gold-line-light-glow-with-sparkle-flare-shine-horizontal-golden-neon-streak-effect-isolated-transparent-background-magic-flash-laser-strip-divider-with-glitter-shimmer-design-illustration_107791-22438.jpg",
-              imageAlt: "sparkle icon white vector",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg?_wi=2",
-          imageAlt: "heart icon minimal white",
+            { imageSrc: "http://img.b2bpic.net/free-vector/set-hipster-labels_23-2147505686.jpg", imageAlt: "ribbon icon" },
+            { imageSrc: "http://img.b2bpic.net/free-vector/gold-line-light-glow-with-sparkle-flare-shine-horizontal-golden-neon-streak-effect-isolated-transparent-background-magic-flash-laser-strip-divider-with-glitter-shimmer-design-illustration_107791-22438.jpg", imageAlt: "sparkle icon" },
+          ]
         },
       ]}
       title="Why You're Simply Amazing"
@@ -175,63 +102,16 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardThirteen
+      animationType="depth-3d"
       textboxLayout="split"
       useInvertedBackground={true}
       testimonials={[
-        {
-          id: "1",
-          name: "Always kind",
-          handle: "My Hero",
-          testimonial: "You taught me to see the best in everyone.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-mom-cute-little-boy_329181-13808.jpg",
-          imageAlt: "happy mother face portrait",
-        },
-        {
-          id: "2",
-          name: "Constant support",
-          handle: "My Rock",
-          testimonial: "You believed in me when I didn't.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-elegant-elderly-woman-wearing-stylish-clothes-isolated_273609-34980.jpg",
-          imageAlt: "smiling grandmother portrait",
-        },
-        {
-          id: "3",
-          name: "Unmatched warmth",
-          handle: "My Sunshine",
-          testimonial: "Your smile lights up my whole world.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-tender-middle-aged-woman-with-light-hair-toothy-smile-keeps-hands-together-looks-away-has-dreamy-expression-dressed-oversized-jumper-stands-blue-wall_273609-46839.jpg",
-          imageAlt: "kind teacher portrait friendly",
-        },
-        {
-          id: "4",
-          name: "Selfless giver",
-          handle: "My Guide",
-          testimonial: "You sacrifice so much just to make me smile.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/attractive-casual-girl-happily-looking-camera-listening-music-cellphone-city-park_574295-2515.jpg",
-          imageAlt: "happy mother with flowers",
-        },
-        {
-          id: "5",
-          name: "Always listening",
-          handle: "My Friend",
-          testimonial: "I can talk to you about absolutely anything.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/blurred-park-view_93675-131704.jpg",
-          imageAlt: "smiling mother outdoor",
-        },
-        {
-          id: "6",
-          name: "Simply you",
-          handle: "My Mom",
-          testimonial: "You are exactly who I aspire to be.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-cafe_273609-12865.jpg",
-          imageAlt: "peaceful mother portrait",
-        },
+        { id: "1", name: "Always kind", handle: "My Hero", testimonial: "You taught me to see the best in everyone.", rating: 5 },
+        { id: "2", name: "Constant support", handle: "My Rock", testimonial: "You believed in me when I didn't.", rating: 5 },
+        { id: "3", name: "Unmatched warmth", handle: "My Sunshine", testimonial: "Your smile lights up my whole world.", rating: 5 },
+        { id: "4", name: "Selfless giver", handle: "My Guide", testimonial: "You sacrifice so much just to make me smile.", rating: 5 },
+        { id: "5", name: "Always listening", handle: "My Friend", testimonial: "I can talk to you about absolutely anything.", rating: 5 },
+        { id: "6", name: "Simply you", handle: "My Mom", testimonial: "You are exactly who I aspire to be.", rating: 5 },
       ]}
       showRating={true}
       title="What Makes You Special"
@@ -244,28 +124,15 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "q1",
-          title: "Do you know how much I love you?",
-          content: "More than the stars in the sky.",
-        },
-        {
-          id: "q2",
-          title: "Who is my favorite person?",
-          content: "You, always and forever.",
-        },
-        {
-          id: "q3",
-          title: "What is the best part of my day?",
-          content: "Talking to you.",
-        },
+        { id: "q1", title: "Do you know how much I love you?", content: "More than the stars in the sky." },
+        { id: "q2", title: "Who is my favorite person?", content: "You, always and forever." },
+        { id: "q3", title: "What is the best part of my day?", content: "Talking to you." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/portrait-young-attractive-family-with-little-baby-son-posing-beautiful-autumn-pine-forest-sunny-day-handsome-man-his-pretty-brunette-wife_1328-3826.jpg"
       mediaAnimation="slide-up"
+      faqsAnimation="slide-up"
       title="Sweet Notes for You"
       description="Answers to the most important things on my mind."
-      faqsAnimation="slide-up"
-      imageAlt="mother lifestyle photography warm"
     />
   </div>
 
@@ -273,15 +140,7 @@ export default function LandingPage() {
       <SocialProofOne
       textboxLayout="default"
       useInvertedBackground={true}
-      names={[
-        "Love",
-        "Kindness",
-        "Patience",
-        "Grace",
-        "Strength",
-        "Wisdom",
-        "Joy",
-      ]}
+      names={["Love", "Kindness", "Patience", "Grace", "Strength", "Wisdom", "Joy"]}
       title="The Pillars of Our Bond"
       description="Values you've instilled in me every single day."
     />
@@ -290,18 +149,11 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCTA
       useInvertedBackground={false}
-      background={{
-        variant: "sparkles-gradient",
-      }}
+      background={{ variant: "sparkles-gradient" }}
       tag="Let's Celebrate"
       title="Sending You All My Love"
       description="I hope you have the most beautiful day, Mom. You deserve all the happiness in the world."
-      buttons={[
-        {
-          text: "Send a Hug",
-          onClick: "alert('Sending a giant virtual hug to mom!')",
-        },
-      ]}
+      buttons={[{ text: "Send a Hug", onClick: () => alert('Sending a giant virtual hug to mom!') }]}
     />
   </div>
 
