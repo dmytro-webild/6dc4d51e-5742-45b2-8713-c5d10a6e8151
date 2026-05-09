@@ -47,7 +47,7 @@ export default function LandingPage() {
       description="To the woman who gave me everything. Thank you for your endless love, patience, and kindness. This site is just a small token of my appreciation."
       buttons={[{ text: "See Your Surprise", href: "#about" }]}
       carouselItems={[
-        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/tender-african-woman-florist-smiling-holding-bouquet-alstroemerias-white-wall-closed-eyes_176420-12311.jpg", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
         { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg", imageAlt: "flowers bouquet for mothers day" },
         { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg", imageAlt: "mother enjoying coffee morning light" },
         { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/male-model-posing-outdoors_23-2148872336.jpg", imageAlt: "loving mother and daughter hug" },
@@ -106,12 +106,12 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "Always kind", handle: "My Hero", testimonial: "You taught me to see the best in everyone.", rating: 5 },
-        { id: "2", name: "Constant support", handle: "My Rock", testimonial: "You believed in me when I didn't.", rating: 5 },
-        { id: "3", name: "Unmatched warmth", handle: "My Sunshine", testimonial: "Your smile lights up my whole world.", rating: 5 },
-        { id: "4", name: "Selfless giver", handle: "My Guide", testimonial: "You sacrifice so much just to make me smile.", rating: 5 },
-        { id: "5", name: "Always listening", handle: "My Friend", testimonial: "I can talk to you about absolutely anything.", rating: 5 },
-        { id: "6", name: "Simply you", handle: "My Mom", testimonial: "You are exactly who I aspire to be.", rating: 5 },
+        { id: "1", name: "Always kind", handle: "From Ming Ming", testimonial: "You taught me to see the best in everyone.", rating: 5 },
+        { id: "2", name: "Constant support", handle: "From Ming Ming", testimonial: "You believed in me when I didn't.", rating: 5 },
+        { id: "3", name: "Unmatched warmth", handle: "From Ming Ming", testimonial: "Your smile lights up my whole world.", rating: 5 },
+        { id: "4", name: "Selfless giver", handle: "From Ming Ming", testimonial: "You sacrifice so much just to make me smile.", rating: 5 },
+        { id: "5", name: "Always listening", handle: "From Ming Ming", testimonial: "I can talk to you about absolutely anything.", rating: 5 },
+        { id: "6", name: "Simply you", handle: "From Ming Ming", testimonial: "You are exactly who I aspire to be.", rating: 5 },
       ]}
       showRating={true}
       title="What Makes You Special"
