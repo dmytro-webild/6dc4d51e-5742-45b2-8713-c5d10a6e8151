@@ -45,14 +45,14 @@ export default function LandingPage() {
       background={{ variant: "rotated-rays-static" }}
       title="Happy Mother's Day"
       description="To the woman who gave me everything. Thank you for your endless love, patience, and kindness. This site is just a small token of my appreciation."
-      buttons={[{ text: "See Your Surprise", href: "#about" }]}
+      buttons={[{ text: "See Your Surprise", href: "/about" }]}
       carouselItems={[
         { id: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
-        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/arrangement-beautiful-flowers-background_23-2149057029.jpg", imageAlt: "flowers bouquet for mothers day" },
-        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/tender-couple-with-coffee-bed_23-2148227398.jpg", imageAlt: "mother enjoying coffee morning light" },
-        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/male-model-posing-outdoors_23-2148872336.jpg", imageAlt: "loving mother and daughter hug" },
-        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/view-thank-you-note-notebook_23-2149706825.jpg", imageAlt: "handwritten thank you card" },
-        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/mother-son-outdoors-sunset-with-copy-space_1249-612.jpg", imageAlt: "beautiful sunset family silhouette" },
+        { id: "2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "3", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
+        { id: "6", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "happy mother holding bouquet of flowers" },
       ]}
     />
   </div>
@@ -62,7 +62,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="To My Dearest Mom"
       description="Mom, your presence has been the foundation of my life. You've taught me how to be kind, strong, and brave. On this special day, I want to celebrate you and everything you do."
-      imageSrc="http://img.b2bpic.net/free-photo/side-view-woman-shooting-with-projector_23-2149424926.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg"
       imageAlt="caring mother portrait warm smile"
     />
   </div>
@@ -76,22 +76,22 @@ export default function LandingPage() {
         {
           title: "Endless Patience",          description: "You always knew how to stay calm and guide me.",          icon: Sparkles,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/red-yarn-heart-shaped-wall-background_1150-6952.jpg", imageAlt: "heart icon" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/dried-flower-window-shadow-floral-background_53876-160632.jpg", imageAlt: "flower icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "heart icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "flower icon" },
           ]
         },
         {
           title: "Unconditional Love",          description: "Your love is the safest place I know.",          icon: Heart,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/big-star-with-bulb-lights-small-one-concrete-wall-background-loft-interior-decor_8353-8324.jpg", imageAlt: "star icon" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/red-gift-with-arms-legs_1156-129.jpg", imageAlt: "gift box icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "star icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "gift box icon" },
           ]
         },
         {
           title: "Incredible Wisdom",          description: "Your advice has shaped who I am today.",          icon: Award,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-vector/set-hipster-labels_23-2147505686.jpg", imageAlt: "ribbon icon" },
-            { imageSrc: "http://img.b2bpic.net/free-vector/gold-line-light-glow-with-sparkle-flare-shine-horizontal-golden-neon-streak-effect-isolated-transparent-background-magic-flash-laser-strip-divider-with-glitter-shimmer-design-illustration_107791-22438.jpg", imageAlt: "sparkle icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "ribbon icon" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg", imageAlt: "sparkle icon" },
           ]
         },
       ]}
@@ -106,12 +106,12 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "Always kind", handle: "From Ming Ming", testimonial: "You taught me to see the best in everyone.", rating: 5 },
-        { id: "2", name: "Constant support", handle: "From Ming Ming", testimonial: "You believed in me when I didn't.", rating: 5 },
-        { id: "3", name: "Unmatched warmth", handle: "From Ming Ming", testimonial: "Your smile lights up my whole world.", rating: 5 },
-        { id: "4", name: "Selfless giver", handle: "From Ming Ming", testimonial: "You sacrifice so much just to make me smile.", rating: 5 },
-        { id: "5", name: "Always listening", handle: "From Ming Ming", testimonial: "I can talk to you about absolutely anything.", rating: 5 },
-        { id: "6", name: "Simply you", handle: "From Ming Ming", testimonial: "You are exactly who I aspire to be.", rating: 5 },
+        { id: "1", name: "Always kind", handle: "From Ming", testimonial: "You taught me to see the best in everyone.", rating: 5 },
+        { id: "2", name: "Constant support", handle: "From Ming", testimonial: "You believed in me when I didn't.", rating: 5 },
+        { id: "3", name: "Unmatched warmth", handle: "From Ming", testimonial: "Your smile lights up my whole world.", rating: 5 },
+        { id: "4", name: "Selfless giver", handle: "From Ming", testimonial: "You sacrifice so much just to make me smile.", rating: 5 },
+        { id: "5", name: "Always listening", handle: "From Ming", testimonial: "I can talk to you about absolutely anything.", rating: 5 },
+        { id: "6", name: "Simply you", handle: "From Ming", testimonial: "You are exactly who I aspire to be.", rating: 5 },
       ]}
       showRating={true}
       title="What Makes You Special"
@@ -128,7 +128,7 @@ export default function LandingPage() {
         { id: "q2", title: "Who is my favorite person?", content: "You, always and forever." },
         { id: "q3", title: "What is the best part of my day?", content: "Talking to you." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-young-attractive-family-with-little-baby-son-posing-beautiful-autumn-pine-forest-sunny-day-handsome-man-his-pretty-brunette-wife_1328-3826.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DUYbUzAEZ28pYmrBdh12s27HWh/uploaded-1778346246033-ct5zekqz.jpg"
       mediaAnimation="slide-up"
       faqsAnimation="slide-up"
       title="Sweet Notes for You"
@@ -159,7 +159,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterCard
-      logoText="With Love from Your Child"
+      logoText="With Love from Ming"
       copyrightText="© 2025 | Mother's Day Celebration"
     />
   </div>
